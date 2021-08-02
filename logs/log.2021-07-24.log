@@ -1,0 +1,415 @@
+[2021-07-24T16:00:03.102] [ERROR] error - TypeError: Cannot read property 'filename' of undefined
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:18:32
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:38:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T16:03:58.659] [ERROR] error - Error: Unexpected field
+    at makeError (/Users/levicoo/Desktop/blog/server/node_modules/koa-multer/node_modules/multer/lib/make-error.js:12:13)
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/koa-multer/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/koa-multer/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:95:16)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:120:12)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[2021-07-24T16:04:37.867] [ERROR] error - Error: Unexpected field
+    at makeError (/Users/levicoo/Desktop/blog/server/node_modules/koa-multer/node_modules/multer/lib/make-error.js:12:13)
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/koa-multer/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/koa-multer/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[2021-07-24T16:08:12.295] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T16:08:51.352] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T16:10:57.360] [ERROR] error - Error: ENOENT: no such file or directory, open '/Users/levicoo/Desktop/blog/server/routes/public/pic-17ad7913bc1.jpg'
+[2021-07-24T16:11:30.567] [ERROR] error - Error: ENOENT: no such file or directory, open '/Users/levicoo/Desktop/blog/server/routes/public/pic-17ad791bd82.jpg'
+[2021-07-24T16:12:08.719] [ERROR] error - Error: ENOENT: no such file or directory, open '/Users/levicoo/Desktop/blog/server/routes/public/pic-17ad792528a.jpg'
+[2021-07-24T16:14:07.569] [ERROR] error - Error: ENOENT: no such file or directory, open '/Users/levicoo/Desktop/blog/server/routes/public/iamges-17ad79422ca.jpg'
+[2021-07-24T16:18:15.807] [ERROR] error - Error: ENOENT: no such file or directory, open 'static/upload/banner2021724/1627114695796.png'
+[2021-07-24T16:18:18.631] [ERROR] error - Error: ENOENT: no such file or directory, open 'static/upload/banner2021724/1627114698630.png'
+[2021-07-24T16:18:19.754] [ERROR] error - Error: ENOENT: no such file or directory, open 'static/upload/banner2021724/1627114699752.png'
+[2021-07-24T16:18:20.530] [ERROR] error - Error: ENOENT: no such file or directory, open 'static/upload/banner2021724/1627114700528.png'
+[2021-07-24T16:18:21.171] [ERROR] error - Error: ENOENT: no such file or directory, open 'static/upload/banner2021724/1627114701170.png'
+[2021-07-24T16:26:34.006] [ERROR] error - ReferenceError: error is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/banners.js:11:30
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+[2021-07-24T18:22:22.162] [ERROR] error - NotFoundError: Not Found
+    at Object.throw (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/context.js:97:11)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-static-server/index.js:101:30
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T18:22:23.079] [ERROR] error - NotFoundError: Not Found
+    at Object.throw (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/context.js:97:11)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-static-server/index.js:101:30
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T18:22:23.647] [ERROR] error - NotFoundError: Not Found
+    at Object.throw (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/context.js:97:11)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-static-server/index.js:101:30
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T18:25:18.205] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T19:24:31.814] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/kids-3297107.png'
+[2021-07-24T19:24:39.972] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/kids-3297107.png'
+[2021-07-24T19:25:52.406] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/kids-3297107.png'
+[2021-07-24T19:25:53.514] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/kids-3297107.png'
+[2021-07-24T19:25:54.198] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/kids-3297107.png'
+[2021-07-24T19:25:54.695] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/kids-3297107.png'
+[2021-07-24T19:27:52.469] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/2021724/1627126072461.png'
+[2021-07-24T19:55:46.117] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/20210724/kids-3297107.png'
+[2021-07-24T19:55:49.170] [ERROR] error - Error: ENOENT: no such file or directory, open 'public/images/20210724/kids-3297107.png'
+[2021-07-24T20:06:30.088] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T20:06:31.391] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T20:06:32.268] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:95:16)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:120:12)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T20:06:40.575] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:188:10)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T20:06:48.820] [ERROR] error - MulterError: Unexpected field
+    at wrappedFileFilter (/Users/levicoo/Desktop/blog/server/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:394:28)
+    at Busboy.emit (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:394:28)
+    at HeaderParser.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:394:28)
+    at HeaderParser._finish (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:197:25)
+    at SBMH.<anonymous> (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:127:10)
+    at SBMH.emit (node:events:394:28)
+    at SBMH._sbmh_feed (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/levicoo/Desktop/blog/server/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at Dicer._write (/Users/levicoo/Desktop/blog/server/node_modules/dicer/lib/Dicer.js:109:17)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+[2021-07-24T20:11:23.481] [ERROR] error - TypeError: Banner.add is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:21:18
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:13:15.147] [ERROR] error - TypeError: Banner.save is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:21:18
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:14:49.017] [ERROR] error - TypeError: Banner.push is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:21:18
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:16:03.828] [ERROR] error - TypeError: Banner.push is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:21:30
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:19:50.742] [ERROR] error - TypeError: post.push is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:22:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:19:52.058] [ERROR] error - TypeError: post.push is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:22:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:25:45.331] [ERROR] error - TypeError: Banner.save is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:21:18
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:28:32.910] [ERROR] error - TypeError: Banner.save is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/upload.js:21:18
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/@koa/multer/index.js:63:14
+    at async /Users/levicoo/Desktop/blog/server/app.js:41:3
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:50:57.577] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/response.js:213:35)
+    at logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:77:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:51:18.432] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/response.js:213:35)
+    at logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:77:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:51:59.621] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/response.js:213:35)
+    at logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:77:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)
+[2021-07-24T20:52:26.509] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (/Users/levicoo/Desktop/blog/server/node_modules/koa/lib/response.js:213:35)
+    at logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:77:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async bodyParser (/Users/levicoo/Desktop/blog/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:56:32)

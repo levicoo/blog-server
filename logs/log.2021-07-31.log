@@ -1,0 +1,163 @@
+[2021-07-31T00:17:35.864] [ERROR] error - CastError: Cast to ObjectId failed for value "{
+  name: '1231234',
+  content: '1231234',
+  className: 'program',
+  sequence: '11234',
+  uploadTime: 2021-07-30T16:17:35.860Z
+}" (type Object) at path "_id" for model "articles"
+    at model.Query.exec (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-07-31T00:25:08.690] [ERROR] error - ReferenceError: className is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:26:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:35:15.168] [ERROR] error - ValidationError: articles validation failed: sequence: Cast to Number failed for value "dsfaa" (type string) at path "sequence"
+    at model.Document.invalidate (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:2760:32)
+    at model.$set (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:1327:12)
+    at model.$set (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:1036:16)
+    at model.Document (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:105:12)
+    at new model (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:4905:15)
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3157:22
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3192:15
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3127:23)
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:25:36
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:35:16.534] [ERROR] error - ValidationError: articles validation failed: sequence: Cast to Number failed for value "dsfaa" (type string) at path "sequence"
+    at model.Document.invalidate (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:2760:32)
+    at model.$set (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:1327:12)
+    at model.$set (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:1036:16)
+    at model.Document (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:105:12)
+    at new model (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:4905:15)
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3157:22
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3192:15
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3127:23)
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:25:36
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:35:17.242] [ERROR] error - ValidationError: articles validation failed: sequence: Cast to Number failed for value "dsfaa" (type string) at path "sequence"
+    at model.Document.invalidate (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:2760:32)
+    at model.$set (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:1327:12)
+    at model.$set (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:1036:16)
+    at model.Document (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:105:12)
+    at new model (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:4905:15)
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3157:22
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3192:15
+    at /Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/index.js:1149:10)
+    at Function.create (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:3127:23)
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:25:36
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:33.696] [ERROR] error - ReferenceError: consolelog is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:35.515] [ERROR] error - ReferenceError: consolelog is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:36.308] [ERROR] error - ReferenceError: consolelog is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:48.303] [ERROR] error - TypeError: Assignment to constant variable.
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:67
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:48.796] [ERROR] error - TypeError: Assignment to constant variable.
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:67
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:49.149] [ERROR] error - TypeError: Assignment to constant variable.
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:67
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:36:49.338] [ERROR] error - TypeError: Assignment to constant variable.
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:67
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:37:22.882] [ERROR] error - TypeError: Assignment to constant variable.
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:65
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:37:34.603] [ERROR] error - TypeError: Assignment to constant variable.
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:22:65
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:38:01.923] [ERROR] error - ReferenceError: className33 is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:26:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-07-31T00:42:09.737] [ERROR] error - ReferenceError: className33 is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:34:49
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)

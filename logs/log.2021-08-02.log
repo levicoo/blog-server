@@ -1,0 +1,160 @@
+[2021-08-02T14:29:57.701] [ERROR] error - ObjectParameterError: Parameter "filter" to find() must be an object, got tag
+    at model.Query.Query.find (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:2098:16)
+    at Function.find (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:2156:13)
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:6:32
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+[2021-08-02T14:30:12.858] [ERROR] error - ReferenceError: tag is not defined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:6:39
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+[2021-08-02T14:30:39.668] [ERROR] error - ObjectParameterError: Parameter "filter" to find() must be an object, got tag
+    at model.Query.Query.find (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:2098:16)
+    at Function.find (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:2156:13)
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:6:32
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+[2021-08-02T14:36:07.030] [ERROR] error - ObjectParameterError: Parameter "filter" to find() must be an object, got tag
+    at model.Query.Query.find (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:2098:16)
+    at Function.find (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/model.js:2156:13)
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:6:32
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/levicoo/Desktop/blog/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+[2021-08-02T15:57:48.462] [ERROR] error - CastError: Cast to string failed for value "[ 'reaact,web,hello' ]" (type Array) at path "tag"
+    at model.Query.exec (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-08-02T15:57:51.095] [ERROR] error - CastError: Cast to string failed for value "[ 'reaact,web,hello' ]" (type Array) at path "tag"
+    at model.Query.exec (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-08-02T15:57:52.145] [ERROR] error - CastError: Cast to string failed for value "[ 'reaact,web,hello' ]" (type Array) at path "tag"
+    at model.Query.exec (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/levicoo/Desktop/blog/server/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-08-02T16:31:50.134] [ERROR] error - TypeError: res.tag[0].join is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T16:31:51.081] [ERROR] error - TypeError: res.tag[0].join is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T16:31:52.067] [ERROR] error - TypeError: res.tag[0].join is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T16:31:53.358] [ERROR] error - TypeError: res.tag[0].join is not a function
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:63:36
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T19:37:36.884] [ERROR] error - TypeError: Cannot read property 'split' of undefined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:47:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T19:37:38.497] [ERROR] error - TypeError: Cannot read property 'split' of undefined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:47:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T19:37:39.097] [ERROR] error - TypeError: Cannot read property 'split' of undefined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:47:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
+[2021-08-02T19:37:59.811] [ERROR] error - TypeError: Cannot read property 'split' of undefined
+    at /Users/levicoo/Desktop/blog/server/routes/articles.js:47:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/levicoo/Desktop/blog/server/app.js:70:3
+    at async serve (/Users/levicoo/Desktop/blog/server/node_modules/koa-static/index.js:53:9)
+    at async logger (/Users/levicoo/Desktop/blog/server/node_modules/koa-logger/index.js:67:7)
+    at async cors (/Users/levicoo/Desktop/blog/server/node_modules/@koa/cors/index.js:98:16)
